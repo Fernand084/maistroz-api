@@ -1,0 +1,151 @@
+
+docuemnto ejemplo:
+
+    {
+        "id":,
+        "name": "",
+        "phone": "",
+        "e_mail": "",
+        "state": "",
+        "city": "",
+        "rating": ,
+        "category": [
+        ""
+        ]
+    },
+
+
+
+
+db.Maistro.insertMany([
+    {
+        "id":1,
+        "name": "Juan Pérez",
+        "phone": "+5215551234567",
+        "e_mail": "juan.perez@example.com",
+        "state": "Aguascalientes",
+        "city": "Aguascalientes",
+        "rating": 4,
+        "category": [
+            "Albañilería",
+            "Pintura"
+        ]
+    },
+    {
+        "id":2,
+        "name": "María López",
+        "phone": "+5213312345678",
+        "e_mail": "maria.lopez@example.com",
+        "state": "Jalisco",
+        "city": "Guadalajara",
+        "rating": 5,
+        "category": [
+            "Jardinería",
+            "Limpieza"
+        ]
+    },
+    {
+        "id":3,
+        "name": "Carlos Hernández",
+        "phone": "+5218187654321",
+        "e_mail": "carlos.hernandez@example.com",
+        "state": "Nuevo León",
+        "city": "Monterrey",
+        "rating": 3,
+        "category": [
+            "Electricidad",
+            "Plomería"
+        ]
+    },
+    {
+        "id":4,
+        "name": "Ana González",
+        "phone": "+5214423456789",
+        "e_mail": "ana.gonzalez@example.com",
+        "state": "Querétaro",
+        "city": "Querétaro",
+        "rating": 5,
+        "category": [
+            "Carpintería",
+            "Refrigeración"
+        ]
+    },
+    {
+        "id":5,
+        "name": "Luis Martínez",
+        "phone": "+5215559876543",
+        "e_mail": "luis.martinez@example.com",
+        "state": "Ciudad de México",
+        "city": "Ciudad de México",
+        "rating": 4,
+        "category": [
+            "Mantenimiento",
+            "Fontanería"
+        ]
+    },
+    {
+        "id":6,
+        "name": "Elena Ramírez",
+        "phone": "+5214448765432",
+        "e_mail": "elena.ramirez@example.com",
+        "state": "San Luis Potosí",
+        "city": "San Luis Potosí",
+        "rating": 3,
+        "category": [
+            "Aire Acondicionado",
+            "Construcción"
+        ]
+    },
+    {
+        "id":7,
+        "name": "Roberto Sánchez",
+        "phone": "+5219212345678",
+        "e_mail": "roberto.sanchez@example.com",
+        "state": "Veracruz",
+        "city": "Xalapa",
+        "rating": 2,
+        "category": [
+            "Tapicería",
+            "Vidriería"
+        ]
+    },
+    {
+        "id":8,
+        "name": "Patricia Torres",
+        "phone": "+5217712345678",
+        "e_mail": "patricia.torres@example.com",
+        "state": "Hidalgo",
+        "city": "Pachuca",
+        "rating": 4,
+        "category": [
+            "Pisos",
+            "Cerrajería"
+        ]
+    },
+    {
+        "id":9,
+        "name": "Alberto Morales",
+        "phone": "+5219981234567",
+        "e_mail": "alberto.morales@example.com",
+        "state": "Quintana Roo",
+        "city": "Chetumal",
+        "rating": 5,
+        "category": [
+            "Mudanzas",
+            "Fumigación"
+        ]
+    },
+    {
+        "id":10,
+        "name": "Carmen Ortiz",
+        "phone": "+5213332345678",
+        "e_mail": "carmen.ortiz@example.com",
+        "state": "Jalisco",
+        "city": "Guadalajara",
+        "rating": 3,
+        "category": [
+            "Electrónica",
+            "Jardinería"
+        ]
+    }
+])
