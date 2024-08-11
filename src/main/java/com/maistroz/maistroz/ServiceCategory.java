@@ -1,5 +1,6 @@
 package com.maistroz.maistroz;
 
+
 public enum ServiceCategory {
 	ALBANILERIA("Albañilería"),
     JARDINERIA("Jardinería"),
@@ -22,6 +23,7 @@ public enum ServiceCategory {
     FUMIGACION("Fumigación"),
     ELECTRONICA("Electrónica");
 
+
     private ServiceCategory(String name) {
         this.name = name;
     }
@@ -31,4 +33,6 @@ public enum ServiceCategory {
     public String getName() {
         return name;
     }
+    
+    
 }
